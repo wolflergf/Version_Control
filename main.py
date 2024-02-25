@@ -1,7 +1,7 @@
 import requests
 
 
-def create_github_repo(repo_name, github_token):
+def github_repo(repo_name, github_token):
     headers = {
         "Authorization": f"token {github_token}",
         "Accept": "application/vnd.github.v3+json",
